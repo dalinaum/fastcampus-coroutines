@@ -23,7 +23,14 @@ class ImageSearchAdapter(
 
     companion object {
         val comparator = object : DiffUtil.ItemCallback<Item>() {
-            TODO("ItemCallback을 구현해야합니다.")
+            override fun areItemsTheSame(oldItem: Item, newItem: Item): Boolean {
+                return oldItem.thumbnail == newItem.thumbnail
+            }
+
+            override fun areContentsTheSame(oldItem: Item, newItem: Item): Boolean {
+                return oldItem == newItem
+            }
+
         }
     }
 }
