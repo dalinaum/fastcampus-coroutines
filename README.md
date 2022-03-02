@@ -401,7 +401,7 @@ class FavouritesFragment : Fragment() {
 
 `SectionsPagerAdapter`를 업데이트해 즐겨찾기를 사용할 수 있게 합니다.
 
-```kotiln
+```kotlin
 class SectionsPagerAdapter(private val fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity) {
     override fun createFragment(position: Int): Fragment =
