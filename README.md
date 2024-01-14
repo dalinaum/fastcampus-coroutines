@@ -2,7 +2,7 @@
 
 ### API 세팅
 
-[네이버 이미지 API](https://developers.naver.com/docs/search/image/)를 사용합니다.
+[네이버 이미지 API](https://developers.naver.com/docs/serviceapi/search/image/image.md)를 사용합니다.
 
 [애플리케이션 등록](https://developers.naver.com/apps/#/register)을 하고 옵시다.
 
